@@ -4,7 +4,13 @@
       left: 50%;
       transform: translateX(-50%);
     }
-  
+  @media screen and (max-width: 768px) {
+  .my-box {
+    flex-direction: column;
+    font-size: 14px;
+  }
+}
+
     .screen .p {
       font-size: 48px;
       width: 90%;
